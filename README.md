@@ -47,3 +47,19 @@
 # git
 * git clone 깃주소붙여넣기
 * ctrl + C : 터미널에서는 새로고침
+# 동영상태그
+1. autoplay, muted, controls, loop 동영상 속성
+2. //비디오를 작성하는 방법1
+* <video src="동영상경로" autoplay muted controls loop></video>
+<!-- autoplay - 자동재생 -->
+<!-- muted 음소거 -->
+<!-- controls 통제하는수단 보통은 재생바나오는 경우 *거의 사용안함 -->
+<!-- loop 반복재생 -->
+3. 비디오를 작성하는 방법2
+* <video autoplay muted controls loop>
+   * <source src="" type="동영상타입1">
+   * <source src="" type="동영상타입2">
+* </video>
+4.동영상 경로 예시
+* src=”절대경로?playlist=동영상이름&속성=값&속성=값&속성=값”
+
